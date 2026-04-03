@@ -16,6 +16,33 @@ a {
     text-decoration: none;
 }
 
+.primary-text {
+    color: #e4b95b;
+} 
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.btn-primary {
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+.btn-primary:hover {
+    background: #e4b95b;
+}
+
+header {
+    height: 100vh;
+    background: url('home_bg.jpeg') center center/cover no-repeat;
+    position: relative;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -33,6 +60,7 @@ a {
 #navbar ul {
     display: flex;
     margin-right: 100px;
+    
 }
 
 #navbar ul li a {
@@ -45,3 +73,43 @@ a {
 #navbar ul li a:hover {
     border-bottom: 2px solid #e4b95b; 
 }
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+
+
+
+
+}
+
+header .content h1 {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+header .content p {
+    margin: 20px 0 40px;
+    color: aliceblue;
+
+}
+
+header::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width:100%;
+ background: rgb(0, 0, 0, 0.6);
+
+}
+
+
+header * {
+    z-index: 10;
+}
+
