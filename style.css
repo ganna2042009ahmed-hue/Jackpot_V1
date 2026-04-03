@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+
+}
+
+#navbar img {
+    width: 80px;
+    margin-left: 100px;
+
+
+}
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+#navbar ul li a {
+    padding: 15px 20px; 
+    color: aliceblue;
+    font-weight: 400;
+
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid #e4b95b; 
+}
