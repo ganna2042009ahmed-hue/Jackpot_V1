@@ -328,3 +328,30 @@ header * {
 #daytime .daytime-items p {
     font-weight: 500;
 }
+
+#gallery {
+    background-color: bisque;
+    padding: 8rem 0 6rem;
+}
+
+#gallery h2 {
+    font-size: 40px;
+    color: #383848;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#gallery .img-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#gallery .img-gallery img {
+    margin: 20px;
+    width: 280px;
+    height: 200px;
+    border-radius: ;
+
+}
