@@ -62,7 +62,7 @@ a {
 
 header {
     height: 100vh;
-    background: url('home_bg.jpeg') center center/cover no-repeat;
+    background: url('background\ 111.jpg') center center/cover no-repeat;
     position: relative;
 }
 
@@ -70,7 +70,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: brown;
+    background-color: yellow;
 
 }
 
@@ -142,7 +142,7 @@ header * {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: brown;
+    background: rgb(153, 151, 6);
 
 }
 #about .title,
@@ -189,7 +189,7 @@ header * {
     height: 80vh;
     display: flex;
     justify-content: center;
-    background-color: blanchedalmond;
+    background-color: rgb(219, 166, 50);
 } 
 
 #offers h2 {
@@ -242,6 +242,7 @@ header * {
     color: brown;
     padding: 5rem 0;
     display: flex;
+    background-color: rgb(236, 200, 152);
 
 }
 
