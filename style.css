@@ -47,7 +47,7 @@ a {
 .btn-secondary {
 
    color: aliceblue;
-   background: #3848; 
+   background: #383848; 
    margin-top: 2rem;
 
 
@@ -238,9 +238,10 @@ header * {
 }
 
 
-#mneu {
-    color: #f4f2ed;
+#menu {
+    color: brown;
     padding: 5rem 0;
+    display: flex;
 
 }
 
@@ -273,7 +274,7 @@ header * {
 
 #menu .menu-items .menu-item img {
     width: 80px;
-    margin-right: 20; 
+    margin-right: 20px; 
     border-radius: 50%;
 }
 
