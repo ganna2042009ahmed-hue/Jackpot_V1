@@ -1,6 +1,6 @@
 # Jackpot_V1
 
-## Web description
+# Web description
 
 Navigation Bar:
 
